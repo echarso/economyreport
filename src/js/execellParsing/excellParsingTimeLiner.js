@@ -27,23 +27,15 @@ var PROJECT_BANK =[];
 var PROJECT_BANK_GOOGLE = [];
 
 
-function Project( ){
-	this.product;
-	this.team;
-	this.releaseType;
-	this.endDate;
-	this.startDate;
-	this.responsible;
-	this.release;
-	this.priority;
-	this.prt_planned;
-	this.prt_actual;
-	this.prx_month;
-	this.prx_date;
-	this.pra_month;
-	this.pra_planned;
-	this.pra_actual;
-	this.status;
+function transaction( ){
+   this.person;
+   this.year;
+	this.month;
+	this.day;
+   this.time;
+	this.transcation;
+	this.affarer;
+	this.transcationType;
 };
 
 
@@ -180,26 +172,14 @@ function fixdata(data) {
 function  haveFunWithNombers(sheet, C, R){
 
 
-	var product;
-	var releaseType;
-	var endDate;
-	var startDate;
-	var responsible;
-	var release;
-	var priority;
-    var prt_planned;
-    var prt_actual;
-    var prx_month;
-    var prx_date;
-    var pra_month;
-    var pra_planned;
-    var pra_actual;
-    var status="NA";
-    var ga_month;
-    var ga_planned;
-    var ga_actual;
-    var team;
-    var rowLast;
+   this.person;
+   this.year;
+   this.month;
+   this.day;
+   this.time;
+   this.transcation;
+   this.affarer;
+   this.transcationType;
     
 	  for(var rowIndex = 1; rowLast != 1 ; ++rowIndex) {		    
 	
