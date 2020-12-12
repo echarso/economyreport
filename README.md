@@ -46,3 +46,7 @@ AWS INSPECTOR
 
 
 https://read.acloud.guru/comparing-aws-lambda-performance-when-using-node-js-java-c-or-python-281bef2c740f
+
+lamda anti patterns 
+
+https://www.simform.com/serverless-antipatterns/
